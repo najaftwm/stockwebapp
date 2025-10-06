@@ -55,9 +55,9 @@ export default function WhyTNSSection() {
 
         {/* Center Image */}
         <div className="flex justify-center mb-16">
-          <div className="w-full max-w-sm h-48 bg-gradient-to-r from-gray-800 to-gray-700 rounded-lg overflow-hidden shadow-2xl">
+          <div className="w-full max-w-sm h-70 bg-gradient-to-r from-gray-800 to-gray-700 rounded-lg overflow-hidden shadow-2xl">
             <img
-              src="./trading-chart.jpg"
+              src="./chart.jpg"
               alt="Trading Chart"
               className="w-full h-full object-cover opacity-80"
             />

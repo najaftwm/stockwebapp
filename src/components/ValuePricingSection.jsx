@@ -20,9 +20,9 @@ export default function ValuePricingSection() {
           
           {/* Left - App Image */}
           <div className="flex-shrink-0">
-            <div className="relative w-64 h-64 bg-gradient-to-br from-blue-900 via-purple-900 to-blue-800 rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-300">
+            <div className="relative w-64 h-150 bg-gradient-to-br from-blue-900 via-purple-900 to-blue-800 rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-300">
               <img
-                src="./app-preview.png"
+                src="./whytouse.png"
                 alt="TradeStocko App"
                 className="w-full h-full object-cover"
               />
@@ -84,14 +84,14 @@ export default function ValuePricingSection() {
               
               <div className="space-y-2">
                 <p className="text-sm text-gray-500 group-hover:text-gray-300 transition-colors duration-300">
-                  Profit <span className="text-yellow-400 font-bold text-xl group-hover:scale-110 inline-block transition-transform duration-300">Rs 20,000/-</span>
+                  Profit  <span className="block min-h-[1.75rem]"><span className="text-yellow-400 font-bold text-xl group-hover:scale-110 inline-block transition-transform duration-300">Rs 20,000/-</span></span>
                 </p>
                 <p className="text-sm text-gray-500 group-hover:text-gray-300 transition-colors duration-300">
                   Brokerage, taxes, etc. <span className="text-red-500 font-bold text-lg group-hover:scale-110 inline-block transition-transform duration-300">Rs 8,000/-</span>
                 </p>
                 <div className="h-px w-full bg-gray-700 group-hover:bg-yellow-400 transition-colors duration-300 my-2"></div>
                 <p className="text-sm text-gray-500 group-hover:text-gray-300 transition-colors duration-300">
-                  Net Profit (take home) <span className="text-yellow-400 font-bold text-xl group-hover:scale-110 inline-block transition-transform duration-300">Rs 12,000/-</span>
+                  Net Profit (take home) <span className="inline-block ml-2 text-yellow-400 font-bold text-xl group-hover:scale-110 inline-block transition-transform duration-300">Rs 12,000/-</span>
                 </p>
               </div>
             </div>
@@ -121,14 +121,14 @@ export default function ValuePricingSection() {
               
               <div className="space-y-2">
                 <p className="text-sm text-gray-400 group-hover:text-gray-200 transition-colors duration-300">
-                  Profit <span className="text-yellow-400 font-bold text-2xl group-hover:scale-125 inline-block transition-transform duration-300">Rs 40,000/-</span>
+                  Profit  <span className="block min-h-[1.75rem]"><span className="inline-block ml-4 text-yellow-400 font-bold text-2xl group-hover:scale-125 inline-block transition-transform duration-300">Rs 40,000/-</span></span>
                 </p>
                 <p className="text-sm text-gray-400 group-hover:text-gray-200 transition-colors duration-300">
                   Brokerage, taxes, etc. <span className="text-green-500 font-bold text-lg group-hover:scale-110 inline-block transition-transform duration-300">Rs 0/-</span>
                 </p>
                 <div className="h-px w-full bg-yellow-400 group-hover:bg-yellow-300 group-hover:shadow-[0_0_10px_rgba(250,204,21,0.5)] transition-all duration-300 my-2"></div>
                 <p className="text-sm text-gray-400 group-hover:text-gray-200 transition-colors duration-300">
-                  Net Profit (take home) <span className="text-yellow-400 font-bold text-2xl group-hover:scale-125 inline-block transition-transform duration-300">Rs 40,000/-</span>
+                  Net Profit (take home) <span className="inline-block ml-3 text-yellow-400 font-bold text-2xl group-hover:scale-125 inline-block transition-transform duration-300">Rs 40,000/-</span>
                 </p>
               </div>
             </div>

@@ -9,7 +9,7 @@ export default function AboutPage() {
         <div className="flex justify-center mb-12">
           <div className="w-full max-w-md h-32 bg-gradient-to-r from-gray-800 to-gray-700 rounded-lg overflow-hidden">
             <img
-              src="./chart.png"
+              src="./chart.jpg"
               alt="Trading Chart"
               className="w-full h-full object-cover opacity-80"
             />

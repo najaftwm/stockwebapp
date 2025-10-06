@@ -53,9 +53,9 @@ export default function HomePage() {
                 <div className="absolute inset-0 bg-white rounded-3xl blur-2xl opacity-10 group-hover:opacity-20 transition-opacity duration-300"></div>
                 
                 {/* QR Code Container */}
-                <div className="relative bg-white p-8 rounded-3xl shadow-2xl transform group-hover:scale-105 transition-transform duration-300">
+                <div className="relative bg-white rounded-5xl shadow-2xl transform group-hover:scale-105 transition-transform duration-300">
                   <img
-                    src="./qr.png"
+                    src="./tradestoco.ico"
                     alt="QR Code"
                     className="w-72 h-72 md:w-80 md:h-80"
                   />

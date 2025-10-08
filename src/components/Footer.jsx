@@ -49,7 +49,7 @@ export default function Footer() {
             </div>
 
             {/* Contact Info */}
-            <div className="space-y-4">
+            {/* <div className="space-y-4">
               <h3 className="text-xl font-bold text-yellow-400 mb-4">Contact Us</h3>
               <ul className="space-y-3">
                 <li className="flex items-start gap-3 text-gray-400 hover:text-yellow-400 transition-colors duration-300">
@@ -65,7 +65,7 @@ export default function Footer() {
                   <span>Mumbai, Maharashtra, India</span>
                 </li>
               </ul>
-            </div>
+            </div> */}
 
           </div>
 

@@ -16,7 +16,7 @@ export default function Navbar() {
     e.preventDefault();
     const element = document.querySelector(href);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      element.scrollIntoView({ behavior: "smooth", block: "start" });
       setIsMenuOpen(false);
     }
   };
@@ -24,15 +24,11 @@ export default function Navbar() {
   return (
     <nav className="sticky top-0 w-full z-50 bg-black/95 backdrop-blur-sm border-b border-gray-800 shadow-lg">
       <div className="container mx-auto flex items-center justify-between px-6 py-4">
-        
         {/* Logo */}
-        <Link 
-          to="/"
-          className="flex items-center group"
-        >
-          <img 
-            src="./logo.png" 
-            alt="TNS Trading Logo" 
+        <Link to="/" className="flex items-center group">
+          <img
+            src="./logo.png"
+            alt="TNS Trading Logo"
             className="h-10 w-auto transition-transform duration-300 group-hover:scale-105"
           />
         </Link>
@@ -51,14 +47,6 @@ export default function Navbar() {
               <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-yellow-400 transition-all duration-300 group-hover:w-full"></span>
             </a>
           ))}
-          
-          {/* CTA Button - Routes to Login Page */}
-          <Link
-            to="/create-acount"
-            className="ml-4 bg-yellow-400 hover:bg-yellow-500 text-black font-bold px-6 py-2 rounded-full transition-all duration-300 hover:scale-105 hover:shadow-[0_0_20px_rgba(250,204,21,0.5)]"
-          >
-            Create Account
-          </Link>
         </div>
 
         {/* Mobile Menu Button */}
@@ -81,7 +69,7 @@ export default function Navbar() {
           {/* Decorative elements */}
           <div className="absolute top-20 left-10 w-20 h-20 bg-yellow-400/10 rounded-full blur-2xl"></div>
           <div className="absolute bottom-20 right-10 w-32 h-32 bg-yellow-400/10 rounded-full blur-2xl"></div>
-          
+
           <div className="flex flex-col space-y-6 text-center relative z-10">
             {navItems.map((item, key) => (
               <a
@@ -93,15 +81,6 @@ export default function Navbar() {
                 {item.name}
               </a>
             ))}
-            
-            {/* Mobile CTA Button - Routes to Login Page */}
-            <Link
-              to="/create-acount"
-              onClick={() => setIsMenuOpen(false)}
-              className="mt-8 inline-block bg-yellow-400 hover:bg-yellow-500 text-black font-bold px-8 py-3 rounded-full transition-all duration-300 hover:scale-105"
-            >
-              Create Account
-            </Link>
           </div>
         </div>
       </div>
